@@ -17,7 +17,7 @@ class Settings:
     pres_pen = 0.2      # Presence penalty (def 0.0)
 
 # TODO REFORMAT ALL FUNCTIONS SO REPEAT PROPERLY REPEATS (leave only function calls in the menu selection part)
-# TODO MAYBE ONE DAY TURN THIS INTO A PACKAGE OF IT'S OWN THAT I'LL PUBLISH
+# TODO MAYBE ONE DAY TURN THIS INTO A PACKAGE OF IT'S OWN
 """
 Need to add functionality that:
 WILL SPLIT THE MAIN MENU INTO SUBMENUS FOR TYPES OF GENERATION
