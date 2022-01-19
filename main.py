@@ -6,6 +6,7 @@ from PyInquirer import prompt
 import config
 
 openai.api_key = config.API_KEY
+openai.organization = config.ORG_KEY
 
 class Settings:
     eng = 'davinci'     # def 'davinci'

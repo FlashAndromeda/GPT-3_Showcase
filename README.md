@@ -3,4 +3,4 @@ A script I made to show off some functionalities of the OpenAI GPT-3 AI.
 
 IT IS VERY MUCH NOT FINISHED!
 
-Replace the config.API_KEY with your actual API key and then launch the script through your console.
+Replace the config.API_KEY and config.ORG_KEY with your actual keys and then launch the script through your console.
