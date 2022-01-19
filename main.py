@@ -3,8 +3,9 @@ import os
 import openai
 from PyInquirer import prompt
 
+import config
 
-openai.api_key = os.getenv('API_KEY')
+openai.api_key = config.API_KEY
 
 class Settings:
     eng = 'davinci'     # def 'davinci'
