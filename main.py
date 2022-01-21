@@ -498,5 +498,12 @@ print(f"""{Bcolors.CYAN}
                               `\  )
                                 ( ){Bcolors.END}\n
 {Bcolors.HEADER}                  HELLO THERE USER!\n           WELCOME TO THE GPT-3 SHOWCASE!\n                       ENJOY!\n\n               Coded by FlashAndromeda\n{Bcolors.END}""")
-input('              PRESS [ENTER] TO CONTINUE\n                          ')
+sekrit = input(f'              {Bcolors.GREEN}PRESS [ENTER] TO CONTINUE{Bcolors.END}\n')
+try:
+    if sekrit == config.CODE:
+        print(f"\nCongrats! You've found the hidden secret! Good job! Now you can pat yourself on the back for being suck a genuis! Clap clap clap!\n")
+        input()
+except AttributeError:
+    pass
+
 main_menu()
